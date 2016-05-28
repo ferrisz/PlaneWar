@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		EDE4C75D1CF9846300C8B4D2 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = EDE4C75C1CF9846300C8B4D2 /* ResourcePath.mm */; };
 		EDE4C7601CF9846300C8B4D2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE4C75F1CF9846300C8B4D2 /* main.cpp */; };
-		EDE4C7631CF9846300C8B4D2 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDE4C7621CF9846300C8B4D2 /* cute_image.jpg */; };
-		EDE4C7651CF9846300C8B4D2 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = EDE4C7641CF9846300C8B4D2 /* nice_music.ogg */; };
-		EDE4C7671CF9846300C8B4D2 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDE4C7661CF9846300C8B4D2 /* sansation.ttf */; };
-		EDE4C7691CF9846300C8B4D2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE4C7681CF9846300C8B4D2 /* icon.png */; };
+		EDE4C7701CF988F100C8B4D2 /* image in Resources */ = {isa = PBXBuildFile; fileRef = EDE4C76F1CF988F100C8B4D2 /* image */; };
+		EDE4C7721CF9890700C8B4D2 /* font in Resources */ = {isa = PBXBuildFile; fileRef = EDE4C7711CF9890700C8B4D2 /* font */; };
+		EDE4C7741CF9890D00C8B4D2 /* audio in Resources */ = {isa = PBXBuildFile; fileRef = EDE4C7731CF9890D00C8B4D2 /* audio */; };
+		EDE4C7771CF98CF800C8B4D2 /* Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE4C7751CF98CF800C8B4D2 /* Object.cpp */; };
+		EDE4C77A1CF98D3C00C8B4D2 /* Background.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE4C7781CF98D3C00C8B4D2 /* Background.cpp */; };
+		EDE4C77D1CF98D5900C8B4D2 /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE4C77B1CF98D5900C8B4D2 /* Plane.cpp */; };
+		EDE4C7801CF98D6500C8B4D2 /* Army.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE4C77E1CF98D6500C8B4D2 /* Army.cpp */; };
+		EDE4C7831CF98D7200C8B4D2 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE4C7811CF98D7200C8B4D2 /* Enemy.cpp */; };
+		EDE4C7861CF98D8300C8B4D2 /* Enemy1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE4C7841CF98D8300C8B4D2 /* Enemy1.cpp */; };
+		EDE4C7891CF98D8C00C8B4D2 /* Enemy2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE4C7871CF98D8C00C8B4D2 /* Enemy2.cpp */; };
+		EDE4C78C1CF98DAD00C8B4D2 /* MyPlane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE4C78A1CF98DAD00C8B4D2 /* MyPlane.cpp */; };
+		EDE4C78F1CF98DBE00C8B4D2 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE4C78D1CF98DBE00C8B4D2 /* Bullet.cpp */; };
+		EDE4C7921CF98DCA00C8B4D2 /* Weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE4C7901CF98DC900C8B4D2 /* Weapon.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +30,29 @@
 		EDE4C75C1CF9846300C8B4D2 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		EDE4C75E1CF9846300C8B4D2 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		EDE4C75F1CF9846300C8B4D2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		EDE4C7621CF9846300C8B4D2 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		EDE4C7641CF9846300C8B4D2 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
-		EDE4C7661CF9846300C8B4D2 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		EDE4C7681CF9846300C8B4D2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		EDE4C76F1CF988F100C8B4D2 /* image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = image; sourceTree = "<group>"; };
+		EDE4C7711CF9890700C8B4D2 /* font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = font; sourceTree = "<group>"; };
+		EDE4C7731CF9890D00C8B4D2 /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = audio; sourceTree = "<group>"; };
+		EDE4C7751CF98CF800C8B4D2 /* Object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Object.cpp; sourceTree = "<group>"; };
+		EDE4C7761CF98CF800C8B4D2 /* Object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Object.hpp; sourceTree = "<group>"; };
+		EDE4C7781CF98D3C00C8B4D2 /* Background.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Background.cpp; sourceTree = "<group>"; };
+		EDE4C7791CF98D3C00C8B4D2 /* Background.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Background.hpp; sourceTree = "<group>"; };
+		EDE4C77B1CF98D5900C8B4D2 /* Plane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plane.cpp; sourceTree = "<group>"; };
+		EDE4C77C1CF98D5900C8B4D2 /* Plane.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Plane.hpp; sourceTree = "<group>"; };
+		EDE4C77E1CF98D6500C8B4D2 /* Army.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Army.cpp; sourceTree = "<group>"; };
+		EDE4C77F1CF98D6500C8B4D2 /* Army.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Army.hpp; sourceTree = "<group>"; };
+		EDE4C7811CF98D7200C8B4D2 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		EDE4C7821CF98D7200C8B4D2 /* Enemy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Enemy.hpp; sourceTree = "<group>"; };
+		EDE4C7841CF98D8300C8B4D2 /* Enemy1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy1.cpp; sourceTree = "<group>"; };
+		EDE4C7851CF98D8300C8B4D2 /* Enemy1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Enemy1.hpp; sourceTree = "<group>"; };
+		EDE4C7871CF98D8C00C8B4D2 /* Enemy2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy2.cpp; sourceTree = "<group>"; };
+		EDE4C7881CF98D8C00C8B4D2 /* Enemy2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Enemy2.hpp; sourceTree = "<group>"; };
+		EDE4C78A1CF98DAD00C8B4D2 /* MyPlane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyPlane.cpp; sourceTree = "<group>"; };
+		EDE4C78B1CF98DAD00C8B4D2 /* MyPlane.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MyPlane.hpp; sourceTree = "<group>"; };
+		EDE4C78D1CF98DBE00C8B4D2 /* Bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bullet.cpp; sourceTree = "<group>"; };
+		EDE4C78E1CF98DBE00C8B4D2 /* Bullet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Bullet.hpp; sourceTree = "<group>"; };
+		EDE4C7901CF98DC900C8B4D2 /* Weapon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Weapon.cpp; sourceTree = "<group>"; };
+		EDE4C7911CF98DCA00C8B4D2 /* Weapon.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Weapon.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +88,26 @@
 				EDE4C75C1CF9846300C8B4D2 /* ResourcePath.mm */,
 				EDE4C75E1CF9846300C8B4D2 /* ResourcePath.hpp */,
 				EDE4C75F1CF9846300C8B4D2 /* main.cpp */,
+				EDE4C7751CF98CF800C8B4D2 /* Object.cpp */,
+				EDE4C7761CF98CF800C8B4D2 /* Object.hpp */,
+				EDE4C7781CF98D3C00C8B4D2 /* Background.cpp */,
+				EDE4C7791CF98D3C00C8B4D2 /* Background.hpp */,
+				EDE4C77B1CF98D5900C8B4D2 /* Plane.cpp */,
+				EDE4C77C1CF98D5900C8B4D2 /* Plane.hpp */,
+				EDE4C77E1CF98D6500C8B4D2 /* Army.cpp */,
+				EDE4C77F1CF98D6500C8B4D2 /* Army.hpp */,
+				EDE4C7811CF98D7200C8B4D2 /* Enemy.cpp */,
+				EDE4C7821CF98D7200C8B4D2 /* Enemy.hpp */,
+				EDE4C7841CF98D8300C8B4D2 /* Enemy1.cpp */,
+				EDE4C7851CF98D8300C8B4D2 /* Enemy1.hpp */,
+				EDE4C7871CF98D8C00C8B4D2 /* Enemy2.cpp */,
+				EDE4C7881CF98D8C00C8B4D2 /* Enemy2.hpp */,
+				EDE4C78A1CF98DAD00C8B4D2 /* MyPlane.cpp */,
+				EDE4C78B1CF98DAD00C8B4D2 /* MyPlane.hpp */,
+				EDE4C78D1CF98DBE00C8B4D2 /* Bullet.cpp */,
+				EDE4C78E1CF98DBE00C8B4D2 /* Bullet.hpp */,
+				EDE4C7901CF98DC900C8B4D2 /* Weapon.cpp */,
+				EDE4C7911CF98DCA00C8B4D2 /* Weapon.hpp */,
 				EDE4C7611CF9846300C8B4D2 /* Resources */,
 				EDE4C75A1CF9846300C8B4D2 /* Supporting Files */,
 			);
@@ -77,12 +125,11 @@
 		EDE4C7611CF9846300C8B4D2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EDE4C7621CF9846300C8B4D2 /* cute_image.jpg */,
-				EDE4C7641CF9846300C8B4D2 /* nice_music.ogg */,
-				EDE4C7661CF9846300C8B4D2 /* sansation.ttf */,
-				EDE4C7681CF9846300C8B4D2 /* icon.png */,
+				EDE4C7731CF9890D00C8B4D2 /* audio */,
+				EDE4C7711CF9890700C8B4D2 /* font */,
+				EDE4C76F1CF988F100C8B4D2 /* image */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,10 +189,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDE4C7691CF9846300C8B4D2 /* icon.png in Resources */,
-				EDE4C7671CF9846300C8B4D2 /* sansation.ttf in Resources */,
-				EDE4C7651CF9846300C8B4D2 /* nice_music.ogg in Resources */,
-				EDE4C7631CF9846300C8B4D2 /* cute_image.jpg in Resources */,
+				EDE4C7701CF988F100C8B4D2 /* image in Resources */,
+				EDE4C7741CF9890D00C8B4D2 /* audio in Resources */,
+				EDE4C7721CF9890700C8B4D2 /* font in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +218,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE4C7891CF98D8C00C8B4D2 /* Enemy2.cpp in Sources */,
+				EDE4C7921CF98DCA00C8B4D2 /* Weapon.cpp in Sources */,
+				EDE4C7801CF98D6500C8B4D2 /* Army.cpp in Sources */,
+				EDE4C78C1CF98DAD00C8B4D2 /* MyPlane.cpp in Sources */,
 				EDE4C7601CF9846300C8B4D2 /* main.cpp in Sources */,
+				EDE4C7861CF98D8300C8B4D2 /* Enemy1.cpp in Sources */,
+				EDE4C7831CF98D7200C8B4D2 /* Enemy.cpp in Sources */,
 				EDE4C75D1CF9846300C8B4D2 /* ResourcePath.mm in Sources */,
+				EDE4C78F1CF98DBE00C8B4D2 /* Bullet.cpp in Sources */,
+				EDE4C77D1CF98D5900C8B4D2 /* Plane.cpp in Sources */,
+				EDE4C7771CF98CF800C8B4D2 /* Object.cpp in Sources */,
+				EDE4C77A1CF98D3C00C8B4D2 /* Background.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
