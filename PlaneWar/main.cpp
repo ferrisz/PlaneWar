@@ -100,8 +100,7 @@ using  namespace std;
 sf::Image Bullet::image;
 int main(int, char const**)
 {
-    Bullet::image.loadFromFile(resourcePath()+"shoot.png");
-    //    Gown::image.loadFromFile(resourcePath()+"shoot.png");
+    Bullet::image.loadFromFile(resourcePath()+"image/shoot.png");
     Backgroud window;
     Army army;
     army.setowner(&window);
@@ -114,16 +113,16 @@ int main(int, char const**)
     sf::Music music_bullet;
     sf::Music music_down;
     sf::Music game_over;
-    if (!game_over.openFromFile(resourcePath()+"game_over.ogg")) {
+    if (!game_over.openFromFile(resourcePath()+"audio/game_over.ogg")) {
         return EXIT_FAILURE;
     }
-    if (!music_down.openFromFile(resourcePath()+"enemy3_down.ogg")) {
+    if (!music_down.openFromFile(resourcePath()+"audio/enemy3_down.ogg")) {
         return EXIT_FAILURE;
     }
-    if (!music_bullet.openFromFile(resourcePath()+"bullet.ogg")) {
+    if (!music_bullet.openFromFile(resourcePath()+"audio/bullet.ogg")) {
         return EXIT_FAILURE;
     }
-    if (!music.openFromFile(resourcePath()+"game_music.ogg")) {
+    if (!music.openFromFile(resourcePath()+"audio/game_music.ogg")) {
         return EXIT_FAILURE;
     }
     music.play();

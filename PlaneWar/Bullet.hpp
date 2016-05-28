@@ -17,7 +17,6 @@ class Bullet: public sf::Sprite
 public:
     Bullet();
     static sf::Image image;
-    //    static void load();
     void setuse(bool);
     bool getuse();
     void check();

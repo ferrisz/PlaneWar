@@ -81,29 +81,20 @@ public:
     void changebombnum(int);
     void again()
     {
-        //        delete  plane;
         str = "SCORE  0";
         plane = new MyPlane();
         sumscore = 0;
         plane->setowner(this);
         lifestr = "OOO";
-        //        score->setString(str);
         text->setString(str);
         change(1);
         life->setString(lifestr);
         setmyplaneweapons(plane->getweapon());
         clearscreen();
-        //        plane.setdownbegin(false);
-        //        plane.setdownover(false);
-        //        plane->setlife(3);
-        //        deblood();
-        //        plane.setTextureRect(sf::IntRect(165, 360,102, 126));
         plane->setPosition((screen_size.x-myplane_size.x)/2,screen_size.y-myplane_size.y);
-        //        refresh();
     }
     static sf::RenderWindow window;
 private:
-    //    Army *army;
     sf::Texture texture;
     sf::Sprite sprite;
     MyPlane *plane;

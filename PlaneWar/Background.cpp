@@ -10,14 +10,14 @@
 #include <iostream>
 #include <string>
 using namespace std;
-sf::RenderWindow Backgroud::window(sf::VideoMode(480,800),"plane");
+sf::RenderWindow Backgroud::window(sf::VideoMode(480,800),"PlaneWar Powered By Ferris");
 Backgroud::Backgroud()
 {
-    if (!texture.loadFromFile(resourcePath()+"background.png")) {
+    if (!texture.loadFromFile(resourcePath()+"image/background.png")) {
         return EXIT_FAILURE;
     }
     sprite.setTexture(texture);
-    if (!font.loadFromFile(resourcePath() + "Promses Broken Dream1.ttf")) {
+    if (!font.loadFromFile(resourcePath() + "font/Promses Broken Dream1.ttf")) {
         return EXIT_FAILURE;
     }
     bomb = new sf::Text(bombstr,font,30);

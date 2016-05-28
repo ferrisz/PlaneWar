@@ -12,7 +12,7 @@
 class Enemy1:public Enemy
 {
 public:
-    Enemy1(std::string name = "shoot.png",sf::IntRect intrect =sf::IntRect(0, 0, 69, 99)):Enemy(name,intrect){}
+    Enemy1(std::string name = "image/shoot.png",sf::IntRect intrect =sf::IntRect(0, 0, 69, 99)):Enemy(name,intrect){}
     virtual bool down();
 
 private:

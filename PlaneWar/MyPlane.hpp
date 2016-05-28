@@ -17,7 +17,7 @@ class Backgroud;
 class MyPlane :public Plane
 {
 public:
-    MyPlane(std::string name = "shoot.png",sf::IntRect intrect = sf::IntRect(165, 360,102, 126)):Plane(name,intrect){
+    MyPlane(std::string name = "image/shoot.png",sf::IntRect intrect = sf::IntRect(165, 360,102, 126)):Plane(name,intrect){
         this->setColor(sf::Color::Blue);
         lifenumber = 3;
     }

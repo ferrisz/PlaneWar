@@ -10,7 +10,7 @@
 
 Plane::Plane(std::string name,sf::IntRect intrect)
 {
-    if (!image.loadFromFile(resourcePath()+"shoot.png")) {
+    if (!image.loadFromFile(resourcePath()+"image/shoot.png")) {
         return EXIT_FAILURE;
     }
     texture.loadFromImage(image);

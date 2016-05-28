@@ -17,7 +17,7 @@
 class Enemy:public Plane
 {
 public:
-    Enemy(std::string name = "shoot.png",sf::IntRect intrect = sf::IntRect(534, 612, 57, 43)):Plane(name,intrect){
+    Enemy(std::string name = "image/shoot.png",sf::IntRect intrect = sf::IntRect(534, 612, 57, 43)):Plane(name,intrect){
         std::uniform_int_distribution<unsigned> u(0,400);
         std::default_random_engine e(time(0));
         this->setPosition(u(e), -200);}
