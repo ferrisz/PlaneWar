@@ -11,7 +11,7 @@
 bool Weapon::fire(sf::Event event,sf::Vector2u plane_size, sf::Sprite*plane)
 {
     
-    if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::LAlt) {
+    if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Space) {
         bullets.push_back(new Bullet());
         sf::Vector2f plane_position = plane->getPosition();
         (*(bullets.end()-1))->setPosition(plane_size.x/2+plane_position.x,plane_position.y-20);
