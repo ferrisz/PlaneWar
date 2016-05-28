@@ -12,10 +12,10 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <vector>
-#include "Enemy1.h"
-#include "Enemy2.h"
-#include "Enemy.h"
-#include "Backgroud.h"
+#include "Enemy1.hpp"
+#include "Enemy2.hpp"
+#include "Enemy.hpp"
+#include "Background.hpp"
 class Army
 {
 public:

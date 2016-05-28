@@ -15,10 +15,10 @@
 #include <SFML/Window.hpp>
 #include <vector>
 #include "ResourcePath.hpp"
-#include "Enemy1.h"
-#include "Enemy2.h"
-#include "Myplane.h"
-//#include "Army.h"
+#include "Enemy1.hpp"
+#include "Enemy2.hpp"
+#include "Myplane.hpp"
+
 class Backgroud
 {
 public:
