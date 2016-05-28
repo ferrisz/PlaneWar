@@ -6,7 +6,7 @@
 //  Copyright © 2016年 Ferris. All rights reserved.
 //
 
-#include "Backgroud.hpp"
+#include "Background.hpp"
 #include <iostream>
 #include <string>
 using namespace std;
