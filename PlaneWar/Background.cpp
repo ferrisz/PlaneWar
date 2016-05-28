@@ -17,7 +17,7 @@ Backgroud::Backgroud()
         return EXIT_FAILURE;
     }
     sprite.setTexture(texture);
-    if (!font.loadFromFile(resourcePath() + "font/Promses Broken Dream1.ttf")) {
+    if (!font.loadFromFile(resourcePath() + "font/sansation.ttf")) {
         return EXIT_FAILURE;
     }
     bomb = new sf::Text(bombstr,font,30);
