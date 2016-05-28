@@ -9,6 +9,26 @@
 #ifndef Army_hpp
 #define Army_hpp
 
-#include <stdio.h>
-
+#include <SFML/Graphics.hpp>
+#include <SFML/Window.hpp>
+#include <vector>
+#include "Enemy1.h"
+#include "Enemy2.h"
+#include "Enemy.h"
+#include "Backgroud.h"
+class Army
+{
+public:
+    void setowner(Backgroud*);
+    void add();
+    void moving();
+    void down();
+    bool fire();
+    bool bulletfly();
+private:
+    std::vector<Enemy*> enemys;
+    Backgroud *background;
+    std::vector<Weapon*> enemyweapons;
+    int i = 0;
+};
 #endif /* Army_hpp */
