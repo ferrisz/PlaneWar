@@ -8,7 +8,17 @@
 
 #ifndef Enemy1_hpp
 #define Enemy1_hpp
+#include "Enemy.hpp"
+class Enemy1:public Enemy
+{
+public:
+    Enemy1(std::string name = "shoot.png",sf::IntRect intrect =sf::IntRect(0, 0, 69, 99)):Enemy(name,intrect){}
+    virtual bool down();
 
-#include <stdio.h>
+private:
+    sf::Texture texture;
+    sf::Image image;
+
+};
 
 #endif /* Enemy1_hpp */
