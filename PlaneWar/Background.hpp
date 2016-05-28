@@ -8,7 +8,6 @@
 
 #ifndef Background_hpp
 #define Background_hpp
-
 #define SCREEN_WIDTH 480
 #define SCREEN_HIGTH 800
 #include <SFML/Audio.hpp>
