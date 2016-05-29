@@ -25,13 +25,14 @@ Backgroud::Backgroud()
     bomb->setPosition(0, 760);
     text = new sf::Text(str, font, 30);
     text->setPosition(0,10);
+    text->setColor(sf::Color::Black);
     plane = new MyPlane();
     plane->setowner(this);
     myplane_size = plane->getsize();
     plane->setPosition((screen_size.x-myplane_size.x)/2,screen_size.y-myplane_size.y);
     setmyplaneweapons(plane->getweapon());
     life = new sf::Text(lifestr,font,30);
-    life->setPosition(400, 10);
+    life->setPosition(410, 10);
     life->setColor(sf::Color::Red);
 }
 sf::RenderWindow& Backgroud::getwindow()
@@ -213,16 +214,16 @@ bool Backgroud::isover()
     if (plane->isdownover()) {
         int i = 0;
         bool panduan = true;
-        sf::Text over("game over",font,60);
+        sf::Text over("Game over",font,70);
         over.setColor(sf::Color::Red);
-        over.setPosition(50,200);
+        over.setPosition(70,200);
         window.clear();
         score = new sf::Text(str,font, 40);
-        score->setPosition(110, 300);
-        sf::Text tryagain("try again",font,20);
-        sf::Text exitbutton("close",font,20);
+        score->setPosition(140, 300);
+        sf::Text tryagain("Try Again",font,30);
+        sf::Text exitbutton("Close",font,30);
         tryagain.setPosition(50, 500);
-        exitbutton.setPosition(300, 500);
+        exitbutton.setPosition(330, 500);
         bombnum = 3;
         bomb->setString("BBB");
         window.draw(tryagain);
@@ -237,14 +238,14 @@ bool Backgroud::isover()
                 
                 if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Left)
                 {
-                    tryagain.setCharacterSize(40);
-                    exitbutton.setCharacterSize(20);
+                    tryagain.setCharacterSize(45);
+                    exitbutton.setCharacterSize(30);
                     i = 1;
                 }
                 if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Right)
                 {
-                    tryagain.setCharacterSize(20);
-                    exitbutton.setCharacterSize(40);
+                    tryagain.setCharacterSize(30);
+                    exitbutton.setCharacterSize(45);
                     i = 0;
                 }
                 if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Return)

@@ -46,19 +46,19 @@ public:
     {
         switch (i) {
             case 2:
-                zm = "second";
+                zm = "Second";
                 break;
             case 3:
-                zm = "third";
+                zm = "Third";
                 break;
             case 4:
-                zm = "forth";
+                zm = "Forth";
                 break;
             default:
                 break;
         }
         zimu = new sf::Text(zm,font,70);
-        zimu->setPosition(100, 300);
+        zimu->setPosition(120, 300);
         sf::Clock clock;
         sf::Time time;
         time = clock.getElapsedTime();
