@@ -2,7 +2,7 @@
 //  Background.cpp
 //  PlaneWar
 //
-//  Created by Ferris on 16/5/28.
+//  Created by Ferris on 16/5/12.
 //  Copyright © 2016年 Ferris. All rights reserved.
 //
 
@@ -13,7 +13,7 @@ using namespace std;
 sf::RenderWindow Backgroud::window(sf::VideoMode(480,800),"PlaneWar Powered By Ferris");
 Backgroud::Backgroud()
 {
-    if (!texture.loadFromFile(resourcePath()+"image/background.png")) {
+    if (!texture.loadFromFile(resourcePath()+"image/background.jpg")) {
         return EXIT_FAILURE;
     }
     sprite.setTexture(texture);
